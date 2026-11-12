@@ -15,3 +15,12 @@ keywords:
   - snow cover
   - Saskatoon
   - Regina
+references:
+  - type: dataset
+    title: "Seasonal intra-urban heat islands in Saskatoon and Regina, Canada (1984-2026): data"
+    authors:
+      - family-names: Karmoker
+        given-names: Uday
+    doi: 10.5281/zenodo.24169138
+    publisher:
+      name: Zenodo

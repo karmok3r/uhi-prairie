@@ -4,6 +4,9 @@ Working folder for a study of where surface heat is intensifying inside Saskatoo
 Regina, using Landsat land surface temperature (LST), a space-time cube, and emerging
 hot-spot analysis. The method builds on Jayasooriya & Adams (2024).
 
+**Data:** the large rasters, space-time cubes, hot-spot results and per-cell tables are
+archived at Zenodo: [doi:10.5281/zenodo.24169138](https://doi.org/10.5281/zenodo.24169138).
+
 ## Folder layout
 
 | Folder | Contents |
