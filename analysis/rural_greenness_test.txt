@@ -1,0 +1,72 @@
+
+===== Saskatoon: 239 summer scenes, 43 years (rural zone at least 50% clear)
+
+1. Rural NDVI, June-August yearly means
+  1984-2012 (Landsat 5/7): mean 0.517; Sen slope +0.048 per decade, Mann-Kendall p = 0.00323
+  2013-2026 (Landsat 8/9): mean 0.589; Sen slope -0.011 per decade, Mann-Kendall p = 0.913
+  OLS 1984-2026 with 2013 step: +0.042 per decade (p = 0.00394); step -0.018 (p = 0.619)
+  1984-93 mean 0.479, 2003-12 mean 0.566 (change +0.087)
+
+2. Per-scene models, OLS with month fixed effects, SE clustered by year
+  city minus box LST (anomaly):
+    trend without NDVI +0.544 C/decade (p = 4.77e-05), with NDVI +0.226 (p = 0.0302): 58% of the trend absorbed
+    rural NDVI effect +0.89 C per +0.1 NDVI (95% CI +0.71 to +1.07, p = 4.43e-22); R2 0.29 -> 0.59
+  built-up minus rural LST:
+    trend without NDVI +1.323 C/decade (p = 1.11e-06), with NDVI +0.614 (p = 0.00259): 54% of the trend absorbed
+    rural NDVI effect +1.97 C per +0.1 NDVI (95% CI +1.61 to +2.34, p = 3.12e-26); R2 0.38 -> 0.72
+  anomaly, 1984-2012 only: trend +0.689 -> +0.404 C/decade with rural NDVI (41% absorbed); NDVI effect +0.65 C per +0.1 (p = 3.49e-10)
+
+3. Rural crop composition (AAFC Annual Crop Inventory), % of agricultural land
+  fallow                 2009:   6.4   2025:   0.3   Sen slope -1.6 pp/decade (MK p = 0.0074)
+  cereals                2009:  24.8   2025:  35.7   Sen slope +5.4 pp/decade (MK p = 0.17)
+  canola and oilseeds    2009:  15.2   2025:  30.3   Sen slope +8.0 pp/decade (MK p = 0.00046)
+  pulses                 2009:   2.6   2025:   6.1   Sen slope +2.7 pp/decade (MK p = 0.044)
+  forage and pasture     2009:  36.6   2025:  13.8   Sen slope -12.3 pp/decade (MK p = 0.00046)
+  grassland              2009:  14.4   2025:  13.9   Sen slope +0.6 pp/decade (MK p = 0.71)
+  other crops            2009:  -0.0   2025:   0.0   Sen slope -0.2 pp/decade (MK p = 0.023)
+  yearly r(fallow, rural NDVI) = +0.25 (p = 0.34, n = 17)
+  yearly r(canola and oilseeds, rural NDVI) = -0.07 (p = 0.78, n = 17)
+  yearly r(pulses, rural NDVI) = -0.23 (p = 0.37, n = 17)
+  yearly r(cereals, rural NDVI) = +0.21 (p = 0.41, n = 17)
+
+4. Composite anomaly series (as in scripts/11), with yearly rural NDVI
+  analysis-area mean: trend +0.309 C/decade (p = 0.0147); with rural NDVI +0.033 (p = 0.717); NDVI effect +0.65 C per +0.1 (p = 2.62e-08)
+    1984-2012 Sen slope +0.418 C/decade (MK p = 0.000452)
+  intensifying hot spots minus area mean: trend +0.877 C/decade (p = 0.000896); with rural NDVI +0.206 (p = 0.0978); NDVI effect +1.59 C per +0.1 (p = 2.19e-15)
+    1984-2012 Sen slope +1.057 C/decade (MK p = 0.00173)
+
+===== Regina: 234 summer scenes, 43 years (rural zone at least 50% clear)
+
+1. Rural NDVI, June-August yearly means
+  1984-2012 (Landsat 5/7): mean 0.468; Sen slope +0.081 per decade, Mann-Kendall p = 4.31e-06
+  2013-2026 (Landsat 8/9): mean 0.591; Sen slope +0.008 per decade, Mann-Kendall p = 0.827
+  OLS 1984-2026 with 2013 step: +0.079 per decade (p = 6.44e-06); step -0.046 (p = 0.257)
+  1984-93 mean 0.371, 2003-12 mean 0.539 (change +0.168)
+
+2. Per-scene models, OLS with month fixed effects, SE clustered by year
+  city minus box LST (anomaly):
+    trend without NDVI +0.651 C/decade (p = 7.92e-11), with NDVI +0.157 (p = 0.072): 76% of the trend absorbed
+    rural NDVI effect +0.88 C per +0.1 NDVI (95% CI +0.74 to +1.02, p = 2.04e-35); R2 0.51 -> 0.74
+  built-up minus rural LST:
+    trend without NDVI +1.217 C/decade (p = 5.3e-11), with NDVI +0.357 (p = 0.0145): 71% of the trend absorbed
+    rural NDVI effect +1.54 C per +0.1 NDVI (95% CI +1.35 to +1.73, p = 1.17e-54); R2 0.55 -> 0.81
+  anomaly, 1984-2012 only: trend +0.751 -> +0.285 C/decade with rural NDVI (62% absorbed); NDVI effect +0.70 C per +0.1 (p = 1.51e-25)
+
+3. Rural crop composition (AAFC Annual Crop Inventory), % of agricultural land
+  fallow                 2009:   1.0   2025:   0.1   Sen slope -0.2 pp/decade (MK p = 0.54)
+  cereals                2009:  44.5   2025:  36.6   Sen slope +0.4 pp/decade (MK p = 0.9)
+  canola and oilseeds    2009:  19.9   2025:  26.9   Sen slope +2.7 pp/decade (MK p = 0.39)
+  pulses                 2009:  22.6   2025:  25.4   Sen slope +4.8 pp/decade (MK p = 0.3)
+  forage and pasture     2009:   8.4   2025:   4.7   Sen slope -3.5 pp/decade (MK p = 0.00046)
+  grassland              2009:   1.0   2025:   0.3   Sen slope +0.1 pp/decade (MK p = 0.77)
+  other crops            2009:   2.6   2025:   6.0   Sen slope -0.9 pp/decade (MK p = 0.11)
+  yearly r(fallow, rural NDVI) = +0.35 (p = 0.16, n = 17)
+  yearly r(canola and oilseeds, rural NDVI) = +0.14 (p = 0.6, n = 17)
+  yearly r(pulses, rural NDVI) = +0.10 (p = 0.72, n = 17)
+  yearly r(cereals, rural NDVI) = +0.16 (p = 0.55, n = 17)
+
+4. Composite anomaly series (as in scripts/11), with yearly rural NDVI
+  analysis-area mean: trend +0.721 C/decade (p = 5.33e-07); with rural NDVI +0.273 (p = 0.0184); NDVI effect +0.57 C per +0.1 (p = 1.62e-07)
+    1984-2012 Sen slope +0.657 C/decade (MK p = 1.47e-05)
+  intensifying hot spots minus area mean: trend +1.153 C/decade (p = 8.41e-06); with rural NDVI +0.247 (p = 0.196); NDVI effect +1.15 C per +0.1 (p = 3.07e-09)
+    1984-2012 Sen slope +1.438 C/decade (MK p = 1.04e-05)

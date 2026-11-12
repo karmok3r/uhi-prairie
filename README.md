@@ -68,6 +68,7 @@ with the packages in `requirements.txt`.
 | Script | Env | What it does | Main outputs |
 |---|---|---|---|
 | `gee/03_cold_snow_split.js`, `gee/04_scene_urban_rural.js` | GEE | Snow-split cold composites; per-scene zone statistics | `data/lst_composites/*_cold_(no)snow.tif`, `data/scene_stats/*_scene_zones.csv` |
+| `gee/05_rural_greenness_crops.js` (written by `scripts/19_make_greenness_crops_script.py`) | GEE | Per-scene NDVI and LST by zone; AAFC crop inventory classes in the rural zone | `data/rural_greenness/*_scene_ndvi.csv`, `*_aci_classes.csv` |
 | `03_emerging_hot_spots.py` | Pro | Space-time cube and Emerging Hot Spot Analysis | `analysis/uhi_prairie.gdb` |
 | `04_map_hot_spots.py` | Pro | Quick-look maps | `figures/` |
 | `06_snow_split_hot_spots.py` | Pro | Gi* on snow / no-snow composites | `analysis/snow_split_summary.csv` |
@@ -81,6 +82,7 @@ with the packages in `requirements.txt`.
 | `17a_buildings.py` | Py | Building footprints for both boxes | `data/drivers/*_buildings.csv` |
 | `17_driver_variables.py` | Pro | Drivers on the 90 m grid (WorldCover, GHSL, buildings) | `analysis/drivers_<city>.csv` |
 | `18_driver_models.py` | Pro | Driver regressions, Figure 6, Table 7 | `analysis/driver_models.*`, `manuscript/tab_drivers.tex` |
+| `20_rural_greenness_test.py` | Pro | Rural greening and crop-change test of the summer trend, Figure 4 (`ms_fig8_rural_greenness.png`) | `analysis/rural_greenness_*`, `analysis/rural_crop_shares.csv` |
 
 Raw driver inputs (`data/drivers/raw/`) are downloaded from: ESA WorldCover 2021 tiles
 N51W108 and N48W105 (AWS open data); GHSL R2023A GHS-BUILT-S (1985, 2020) and GHS-BUILT-H
