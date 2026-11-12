@@ -134,5 +134,5 @@ for ax, city, letter in zip(axes, ["saskatoon", "regina"], "ab"):
 axes[0].set_ylabel("Urban minus rural (°C)")
 axes[0].legend(frameon=False, fontsize=8, loc="upper left")
 fig.tight_layout()
-fig.savefig(os.path.join(ROOT, "figures", "ms_fig7_air_temp.png"), dpi=300)
+fig.savefig(os.path.join(ROOT, "figures", "ms_fig7_air_temp.png"), dpi=340)
 print("saved figure")

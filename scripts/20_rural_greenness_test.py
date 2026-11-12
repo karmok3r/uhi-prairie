@@ -247,5 +247,5 @@ for j, city in enumerate(CITIES):
     ax.set_title(f"({'cd'[j]}) {NAMES[city]}, crop inventory", loc="left")
 h, l = axes[1, 0].get_legend_handles_labels()
 fig.legend(h, l, loc="lower center", ncol=4, frameon=False, bbox_to_anchor=(0.5, -0.09))
-fig.savefig(os.path.join(ROOT, "figures", "ms_fig8_rural_greenness.png"), dpi=300, bbox_inches="tight")
+fig.savefig(os.path.join(ROOT, "figures", "ms_fig8_rural_greenness.png"), dpi=330, bbox_inches="tight")
 print("\nsaved figure")

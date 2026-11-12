@@ -117,7 +117,7 @@ axes[0].set_yticklabels([LABEL[k] for k in DRIVERS])
 h, l = axes[0].get_legend_handles_labels()
 fig.legend(h, l, loc="upper center", ncol=2, frameon=False, fontsize=8)
 fig.tight_layout(w_pad=0.6, rect=(0, 0, 1, 0.94))
-fig.savefig(os.path.join(ROOT, "figures", "ms_fig6_drivers.png"), dpi=300)
+fig.savefig(os.path.join(ROOT, "figures", "ms_fig6_drivers.png"), dpi=330)
 
 # ---------------- Table: driver means by summer hot-spot group ----------------
 order = ["Intensifying hot", "Persistent hot", "Other hot", "No pattern", "Cold spot"]
