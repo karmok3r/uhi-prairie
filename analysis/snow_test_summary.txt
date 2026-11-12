@@ -1,0 +1,81 @@
+Scenes kept (both zones at least 80% clear, one per date):
+city
+regina       591
+saskatoon    548
+
+Cold-season scenes (Nov-Mar, all years) by snow class:
+snow_class  mixed  nosnow  snow
+city                           
+regina         16      32   109
+saskatoon      12      13    68
+
+=== 1. Built-up minus rural LST (deg C) by snow class, cold season ===
+
+regina
+            count  mean  median   std
+snow_class                           
+mixed          16  2.43    2.30  1.90
+nosnow         32  0.34   -0.36  1.53
+snow          109  3.12    2.81  1.90
+snow minus no-snow: +2.78 C, Mann-Whitney p = 7.3e-11
+
+saskatoon
+            count  mean  median   std
+snow_class                           
+mixed          12  2.08    1.38  2.13
+nosnow         13  0.10    0.11  1.06
+snow           68  2.69    2.50  1.74
+snow minus no-snow: +2.59 C, Mann-Whitney p = 1.6e-06
+
+=== 2. Month-matched: same comparison within single months ===
+     city  month  n_snow  n_nosnow  dT_snow  dT_nosnow  diff     p  rural_lst_snow  rural_lst_nosnow
+   regina     11       8        20    1.630     -0.627 2.257 0.000          -9.727             5.867
+   regina     12      10         2    1.910      0.188 1.722   NaN         -16.057            -5.069
+   regina      1      25         0    2.207        NaN   NaN   NaN         -17.748               NaN
+   regina      2      33         0    2.839        NaN   NaN   NaN         -17.377               NaN
+   regina      3      33        10    4.836      2.310 2.526 0.001          -7.740             6.617
+saskatoon     11       7         9    1.633     -0.450 2.083 0.000         -12.694             5.606
+saskatoon     12       3         0    1.571        NaN   NaN   NaN         -13.805               NaN
+saskatoon      1      14         0    1.966        NaN   NaN   NaN         -14.444               NaN
+saskatoon      2      23         0    2.297        NaN   NaN   NaN         -11.074               NaN
+saskatoon      3      21         4    4.128      1.334 2.793 0.004          -6.204            10.250
+
+=== 3. Regression on all cold-season scenes ===
+dT ~ rural snow share + rural LST + sun elevation + month (robust standard errors)
+
+regina: n = 157, R2 = 0.68
+  snow share 0 -> 1 changes dT by +1.85 C (95% CI +1.12 to +2.59, p = 8.5e-07)
+  rural LST: -0.043 C per C (p = 0.00081); sun elevation: +0.173 C per degree (p = 0.00022)
+  R2 without the snow term: 0.62
+
+saskatoon: n = 93, R2 = 0.64
+  snow share 0 -> 1 changes dT by +1.94 C (95% CI +0.91 to +2.98, p = 0.00023)
+  rural LST: -0.064 C per C (p = 6.1e-05); sun elevation: +0.258 C per degree (p = 3.5e-06)
+  R2 without the snow term: 0.58
+
+=== 4. Same regression for other city land (parks, fields) minus rural ===
+regina: snow effect +0.76 C (95% CI +0.36 to +1.16)
+saskatoon: snow effect +0.63 C (95% CI +0.07 to +1.19)
+
+=== 5. Is the built-up zone itself less snowy? (snow-class scenes only) ===
+           snow_built  snow_cityopen  snow_rural
+city                                            
+regina          0.885          0.961       0.991
+saskatoon       0.853          0.943       0.971
+
+=== 6. Monthly mean built-up minus rural LST, all years ===
+        mean            count          
+city  regina saskatoon regina saskatoon
+month                                  
+1       2.21      1.84     25        15
+2       2.74      2.30     36        23
+3       4.20      3.63     51        32
+4       1.43      1.46     60        68
+5      -1.57     -0.65     55        52
+6       0.81      0.82     53        39
+7       5.38      3.32     64        86
+8       2.41      1.59     77        81
+9      -0.12      0.01     69        78
+10     -0.60     -0.67     56        51
+11      0.04      0.45     29        18
+12      1.32      0.96     16         5

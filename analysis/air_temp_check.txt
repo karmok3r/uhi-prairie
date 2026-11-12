@@ -1,0 +1,18 @@
+
+===== saskatoon: 456 scenes with station data, 1994-05-04 to 2026-10-04
+  urban air T at overpass vs rural LST, all scenes: r = 0.96
+  summer: n=167  LST dT +2.58  air dT day +0.30 (sd 0.91)  air dT night +0.77  r(LST dT, air dT day) = 0.09
+  cold: n=87  LST dT +2.26  air dT day -0.62 (sd 1.96)  air dT night -1.30  r(LST dT, air dT day) = -0.01
+  cold snow  : n= 63  LST dT +2.75  air dT day -0.83 (se 0.25)  air dT night -1.42 (se 0.27)
+  cold nosnow: n= 13  LST dT +0.10  air dT day +0.06 (se 0.44)  air dT night -1.02 (se 0.44)
+  dTa_day ~ snow + month: snow effect -0.95 C (95% CI -2.16 to +0.25, p = 0.12, n = 76)
+  dTa_night ~ snow + month: snow effect -0.05 C (95% CI -1.29 to +1.18, p = 0.93, n = 76)
+
+===== regina: 260 scenes with station data, 2007-08-07 to 2026-10-14
+  urban air T at overpass vs rural LST, all scenes: r = 0.96
+  summer: n=83  LST dT +4.74  air dT day -0.02 (sd 0.80)  air dT night +1.17  r(LST dT, air dT day) = 0.40
+  cold: n=78  LST dT +2.52  air dT day -0.44 (sd 1.04)  air dT night +0.01  r(LST dT, air dT day) = 0.01
+  cold snow  : n= 51  LST dT +3.39  air dT day -0.44 (se 0.16)  air dT night +0.17 (se 0.16)
+  cold nosnow: n= 16  LST dT +0.04  air dT day -0.53 (se 0.21)  air dT night -0.36 (se 0.32)
+  dTa_day ~ snow + month: snow effect +0.03 C (95% CI -1.13 to +1.20, p = 0.96, n = 67)
+  dTa_night ~ snow + month: snow effect +0.65 C (95% CI -0.28 to +1.57, p = 0.17, n = 67)

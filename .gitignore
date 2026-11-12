@@ -1,0 +1,44 @@
+# ---- Not for publication ----
+# Copyrighted papers
+literature/
+# Private drafts: proposal, emails, notes
+docs/
+
+# ---- Too large for GitHub (archive on Zenodo instead) ----
+data/lst_composites/
+data/drivers/raw/
+data/drivers/work/
+data/air_temp/
+analysis/*.gdb/
+analysis/*.nc
+analysis/sensitivity/*.nc
+analysis/sensitivity.gdb/
+
+# ---- Generated or temporary files ----
+__pycache__/
+*.pyc
+*.aux.xml
+*.ovr
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
+manuscript/*.spl
+manuscript/*.synctex.gz
+manuscript/*.fdb_latexmk
+manuscript/*.fls
+
+# ---- Kept off GitHub; archived on Zenodo instead ----
+# Manuscript stays private until acceptance
+manuscript/
+# Large per-cell tables (Zenodo: tables package)
+analysis/sensitivity/
+analysis/drivers_*.csv
+analysis/hot_spot_clusters_osm.json
+data/drivers/*_buildings.csv
+# Working and proposal figures
+figures/*
+!figures/ms_fig*.png
+# Superseded first scene-count run
+data/scene_stats/v1_first_run/

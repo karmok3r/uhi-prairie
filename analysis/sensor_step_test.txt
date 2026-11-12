@@ -1,0 +1,32 @@
+
+===== saskatoon summer, 1055 intensifying hot-spot cells (1055 matched to grid)
+
+whole analysis area:
+  trend without step term: +0.233 C per decade (p = 0.002)
+  trend with step term:    +0.309 C per decade (p = 0.015); step at 2013: -0.249 C (p = 0.44)
+  1984-2012 (Landsat 5/7): Sen slope +0.418 C per decade, Mann-Kendall p = 0.00045
+  2013-2026 (Landsat 8/9): Sen slope -0.648 C per decade, Mann-Kendall p = 0.38
+  era means: 1984-2012 +0.393 C, 2013-2026 +0.809 C
+
+intensifying hot spots:
+  trend without step term: +0.671 C per decade (p = 0.0023)
+  trend with step term:    +1.186 C per decade (p = 0.0013); step at 2013: -1.682 C (p = 0.072)
+  1984-2012 (Landsat 5/7): Sen slope +1.478 C per decade, Mann-Kendall p = 0.001
+  2013-2026 (Landsat 8/9): Sen slope -0.833 C per decade, Mann-Kendall p = 0.44
+  era means: 1984-2012 +3.651 C, 2013-2026 +4.519 C
+
+===== regina summer, 945 intensifying hot-spot cells (945 matched to grid)
+
+whole analysis area:
+  trend without step term: +0.708 C per decade (p = 9.6e-13)
+  trend with step term:    +0.721 C per decade (p = 5.3e-07); step at 2013: -0.044 C (p = 0.89)
+  1984-2012 (Landsat 5/7): Sen slope +0.657 C per decade, Mann-Kendall p = 1.5e-05
+  2013-2026 (Landsat 8/9): Sen slope +0.943 C per decade, Mann-Kendall p = 0.063
+  era means: 1984-2012 +0.837 C, 2013-2026 +2.344 C
+
+intensifying hot spots:
+  trend without step term: +1.380 C per decade (p = 4.4e-09)
+  trend with step term:    +1.874 C per decade (p = 3.7e-07); step at 2013: -1.610 C (p = 0.056)
+  1984-2012 (Landsat 5/7): Sen slope +2.105 C per decade, Mann-Kendall p = 8.1e-07
+  2013-2026 (Landsat 8/9): Sen slope +1.006 C per decade, Mann-Kendall p = 0.44
+  era means: 1984-2012 +4.158 C, 2013-2026 +6.577 C

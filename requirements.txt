@@ -1,0 +1,12 @@
+# Scripts marked "ArcGIS Pro's Python" need ArcGIS Pro 3.4 (Advanced licence for
+# Emerging Hot Spot Analysis) and its arcgispro-py3 environment, which already includes
+# numpy, pandas, scipy, statsmodels, matplotlib and netCDF4.
+# The other scripts run with a standard Python 3.10+ and:
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+geopandas
+shapely
+pyproj

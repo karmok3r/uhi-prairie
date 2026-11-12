@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Seasonal intra-urban heat islands in Saskatoon and Regina, Canada: code and data"
+authors:
+  - family-names: Karmoker
+    given-names: Uday
+version: 1.0.0
+date-released: 2026-11-12
+license: MIT
+keywords:
+  - urban heat island
+  - land surface temperature
+  - Landsat
+  - emerging hot spot analysis
+  - snow cover
+  - Saskatoon
+  - Regina

@@ -1,0 +1,33 @@
+     city season  variant  pct_hot_int  pct_hot_pers  pct_cold_pers  keep_hot_int  keep_hot_pers  keep_hot_strong  keep_cold_pers  kappa
+saskatoon summer     base         2.67          1.22           2.73        100.00         100.00           100.00          100.00   1.00
+saskatoon summer   cell60         5.91          2.43           3.18         96.40          92.31            98.10           94.95   0.77
+saskatoon summer   cell30         8.51          3.48           3.62         96.77          93.12            98.22           97.48   0.62
+saskatoon summer   nbr400         7.07          2.06           2.81         83.75          51.42            89.22           63.66   0.64
+saskatoon summer   nbr600         9.04          1.78           2.85         71.56          31.78            78.31           49.95   0.53
+saskatoon summer  win_nbr         2.90          0.81           2.76         81.90          59.51            84.78           93.87   0.95
+saskatoon summer win_cube         1.35          0.25           1.12         28.62          12.75            33.54           23.72   0.64
+saskatoon summer    step2         5.28          4.68           3.02         67.13          97.17            97.65           73.49   0.69
+saskatoon   cold     base         0.44          8.09           7.18        100.00         100.00           100.00          100.00   1.00
+saskatoon   cold   cell60         0.70         12.29          12.57         78.09          99.57            99.42           96.36   0.73
+saskatoon   cold   cell30         1.05         15.46          16.50         83.71          99.51            99.19           96.98   0.57
+saskatoon   cold   nbr400         0.53         14.16          14.36         43.82          94.94            94.91           89.11   0.61
+saskatoon   cold   nbr600         0.49         16.42          15.63         28.09          91.41            91.79           80.43   0.48
+saskatoon   cold  win_nbr         1.78          7.97           8.36         76.97          71.44            77.94           82.01   0.80
+saskatoon   cold win_cube         0.24          2.70           7.37         23.03          28.68            29.98           28.43   0.70
+saskatoon   cold    step2         1.69         15.22          16.36         58.99          97.99            98.61           89.08   0.63
+   regina summer     base         3.56          1.34           0.24        100.00         100.00           100.00          100.00   1.00
+   regina summer   cell60         6.27          2.27           0.40         87.59          92.72            91.89           84.21   0.78
+   regina summer   cell30         8.92          2.94           0.64         90.78          96.01            93.56           92.11   0.65
+   regina summer   nbr400         7.23          1.82           0.43         75.89          50.70            81.79           50.00   0.67
+   regina summer   nbr600         8.87          1.55           0.65         66.22          26.29            71.94           42.11   0.56
+   regina summer  win_nbr         4.39          1.66           0.28         86.35          79.34            90.99           88.16   0.73
+   regina summer win_cube         0.85          0.00           0.21         10.99           0.00            11.90            7.89   0.65
+   regina summer    step2         9.60          3.67           0.81         67.46          97.65            95.50           92.11   0.59
+   regina   cold     base         0.50         10.52          11.51        100.00         100.00           100.00          100.00   1.00
+   regina   cold   cell60         0.76         15.56          16.52         75.80          99.64            99.40           97.37   0.77
+   regina   cold   cell30         1.04         19.22          19.56         77.07          99.70            99.23           97.86   0.63
+   regina   cold   nbr400         0.67         18.16          17.26         35.67          95.92            96.36           91.77   0.63
+   regina   cold   nbr600         0.79         19.92          18.73         23.57          92.34            93.03           85.08   0.52
+   regina   cold  win_nbr         1.83         12.34          11.26         73.89          71.99            76.32           80.61   0.68
+   regina   cold win_cube         0.43          9.21          12.50         24.20          75.41            75.69           74.47   0.58
+   regina   cold    step2         3.56         22.83          19.09         70.70          91.77            98.22           77.81   0.42
