@@ -4,6 +4,11 @@ title: "Seasonal intra-urban heat islands in Saskatoon and Regina, Canada: code 
 authors:
   - family-names: Karmoker
     given-names: Uday
+    affiliation: "Rajshahi University of Engineering & Technology"
+  - family-names: Kundu
+    given-names: Tarunnyamoye
+    affiliation: "University of Saskatchewan"
+doi: 10.5281/zenodo.24173533
 version: 1.0.0
 date-released: 2026-11-12
 license: MIT
