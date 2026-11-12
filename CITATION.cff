@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it as below."
-title: "Seasonal intra-urban heat islands in Saskatoon and Regina, Canada: code and data"
+title: "Seasonal intra-urban surface heat islands in snowy prairie cities: Saskatoon and Regina, Canada – code"
 authors:
   - family-names: Karmoker
     given-names: Uday
@@ -24,10 +24,12 @@ keywords:
   - Regina
 references:
   - type: dataset
-    title: "Seasonal intra-urban heat islands in Saskatoon and Regina, Canada (1984-2026): data"
+    title: "Seasonal intra-urban surface heat islands in snowy prairie cities: Saskatoon and Regina, Canada – Data"
     authors:
       - family-names: Karmoker
         given-names: Uday
+      - family-names: Kundu
+        given-names: Tarunnyamoye
     doi: 10.5281/zenodo.24169138
     publisher:
       name: Zenodo
