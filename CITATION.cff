@@ -5,9 +5,11 @@ authors:
   - family-names: Karmoker
     given-names: Uday
     affiliation: "Rajshahi University of Engineering & Technology"
+    orcid: "https://orcid.org/0000-0002-9735-9014"
   - family-names: Kundu
     given-names: Tarunnyamoye
     affiliation: "University of Saskatchewan"
+    orcid: "https://orcid.org/0009-0000-8179-1403"
 doi: 10.5281/zenodo.24173533
 version: 1.0.0
 date-released: 2026-11-12
